@@ -31,3 +31,53 @@ body {
     text-wrap: balance;
   }
 }
+
+.booking-item {
+  padding: 10px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.page-container {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.page-container .booking-item {
+  flex: 0 0 31%;
+}
+
+.create-booking {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  flex-direction: column;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  color: white;
+  border: 1px solid white;
+  background-color: black;
+}
+
+button {
+  margin-top: 10px;
+}
